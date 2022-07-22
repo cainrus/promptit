@@ -1,0 +1,13 @@
+{
+  "name": "readliner",
+  "bin": "./bin/readliner",
+  "version": "1.0.0",
+  "description": "Utility prompts user for value and prints it",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": ["readline", "cli"],
+  "author": "Sergei Tarassov",
+  "license": "ISC"
+}
