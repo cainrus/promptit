@@ -1,13 +1,13 @@
 {
-  "name": "readliner",
-  "bin": "./bin/readliner",
+  "name": "promptit",
+  "bin": "./bin/promptit",
   "version": "1.0.0",
-  "description": "Utility prompts user for value and prints it",
+  "description": "Utility prompts user for a value and then prints it",
   "main": "index.js",
   "scripts": {
     "test": "node test"
   },
-  "keywords": ["readline", "cli"],
+  "keywords": ["readline", "sddin", "cli"],
   "author": "Sergei Tarassov",
   "license": "ISC"
 }
