@@ -4,10 +4,10 @@
 __metadata:
   version: 6
 
-"readliner@workspace:.":
+"promptit@workspace:.":
   version: 0.0.0-use.local
-  resolution: "readliner@workspace:."
+  resolution: "promptit@workspace:."
   bin:
-    readliner: ./bin/readliner
+    promptit: ./bin/promptit
   languageName: unknown
   linkType: soft

@@ -4,7 +4,7 @@ const {
     execSync,
 } = require('child_process');
 
-const value = execSync(`echo 'test' | ${process.argv0} ../bin/readliner`, {
+const value = execSync(`echo 'test' | ${process.argv0} ../bin/promptit`, {
     encoding: 'utf8',
     cwd: __dirname,
 }).trim();
