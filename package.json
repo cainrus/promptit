@@ -1,15 +1,18 @@
 {
   "name": "promptit",
-  "bin": "./bin/promptit",
+  "bin": "bin/promptit",
   "version": "1.0.0",
   "description": "Utility prompts user for a value and then prints it",
   "main": "index.js",
   "scripts": {
-    "test": "node test"
+    "promptit": "promptit",
+    "test": "node test",
+    "set-schema": "curl -o schema.json https:/api.corp/schema?version=$(promptit 'Version: ')",
+    "as": "promptit \"$(promptit)\""
   },
   "keywords": [
     "readline",
-    "sddin",
+    "stdin",
     "cli"
   ],
   "author": "Sergei Tarassov",

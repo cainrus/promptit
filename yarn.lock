@@ -8,6 +8,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "promptit@workspace:."
   bin:
-    promptit: ./bin/promptit
+    promptit: bin/promptit
   languageName: unknown
   linkType: soft
