@@ -1,12 +1,13 @@
 # Prompt it
 Simple cli utility reads input value and prints it.
 ## Description
+![Alt Text](https://media.giphy.com/media/H9qqBrKPGs1hpflVUv/giphy.gif)
 ### Features:
 * no dependencies
 * cross-platform
 * optional prompt message
 * tiny
-
+* 
 ## Getting Started
 
 ### Install
