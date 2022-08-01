@@ -31,10 +31,11 @@ yarn dlx promptit
 ### Examples
 #### Message:
 ```shell
-promptit $ Enter last 4 digits of your cart number 1234-XXXX-XXXX-
-promptit "Password: " 
+promptit Enter last 4 digits of your cart number 1234-XXXX-XXXX-
+promptit "Token: " 
 ```
 #### package.json:
+Ask a developer for a scheme version before request:
 ```json
 {
   "scripts": {
