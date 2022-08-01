@@ -1,7 +1,7 @@
 {
   "name": "promptit",
   "bin": "bin/promptit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utility prompts user for a value and then prints it",
   "main": "index.js",
   "scripts": {
