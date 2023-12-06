@@ -10,6 +10,7 @@
     "set-schema": "curl -o schema.json https:/api.corp/schema?version=$(promptit 'Version: ')",
     "as": "promptit \"$(promptit)\""
   },
+  "repository": "github:cainrus/promptit",
   "keywords": [
     "readline",
     "stdin",
